@@ -1,0 +1,14 @@
+.secondSection{
+    margin: 3rem 0 2rem 0;
+
+    &__images img{
+        width: 100%;
+        height: 30rem;
+    }
+    &__line{
+        border: .1rem solid #d4cbc7 !important;
+    }
+    &__space{
+     margin-bottom: 2rem;
+    }
+}

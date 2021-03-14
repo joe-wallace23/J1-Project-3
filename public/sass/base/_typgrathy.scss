@@ -1,0 +1,68 @@
+.banner{
+    &__content h1.title{
+        font-size: 3rem;
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: bold;
+    }
+    &__content p.para{
+        font-size: 1.3rem;
+        color: #fff;
+    }
+    &__content p.sub{
+        font-size: .8rem;
+        color: #fff;
+    }
+}
+
+.firstSection{
+    &__content h2.title{
+        font-size: 2.5rem;
+        color: $maroon-color;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+}
+
+
+.secondSection{
+    &__content h3.safety{
+        font-size: 2rem;
+        color: $maroon-color;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    &__content p.para{
+        font-size: 1.1rem;
+        color: $maroon-color;
+    }
+}
+
+.thirdSection{
+    &__content h3.cate{
+        font-size: 2rem;
+        color: #fff;
+        font-weight: bold;
+        letter-spacing: 1.15px;
+        text-transform: uppercase;
+    }
+    &__content p.para{
+        font-size: 1.3rem;
+        color: #786259;
+    }
+    &__content p.sub{
+        font-size: 1.1rem;
+        color: #786259;
+        font-weight: bold;
+    }
+    &__content h2.title{
+        font-size: 2.6rem;
+        color: $maroon-color;
+        font-weight: bold;
+        letter-spacing: 1.15px;
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+    }
+}

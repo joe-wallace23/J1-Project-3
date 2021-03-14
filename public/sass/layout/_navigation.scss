@@ -1,0 +1,67 @@
+.navbar{
+    background-color: #fff;
+    border-bottom: 1px solid #d4cbc7;
+
+    &-brand img{
+        width: 8rem;
+    }
+}
+.ml-auto{
+    margin-left: auto !important;
+}
+.nav{
+    &-color{
+        font-size: 1.3rem;
+        color: $maroon-color !important;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+
+        &:hover{
+            color: #ad2118 !important;
+        }
+    }
+    &-space{
+        margin-left: 16rem;
+
+        @include respond(tab-even){
+            margin-left: 1rem;
+        }
+    }
+    &__list{
+        list-style: none;
+    }
+    &__item{
+        display: inline-block;
+    }
+    &__fun{
+        fill: $maroon-color;
+        width: 3rem;
+        height: 3rem;
+    }
+}
+
+.navbar-toggler{
+    border: none !important;
+}
+.toggler-btn{
+    border: 2px solid $maroon-color;
+    padding: 5px;
+    transition: all 2s ease;
+}
+.bar{
+    width: 30px;
+    height: 3px;
+    margin: 5px;
+    background: $maroon-color;
+    transition: all 0.5s ease;
+}
+.change .bar1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+.change .bar2{
+    opacity: 0;
+}
+.change .bar3{
+    transform: rotate(45deg) translate(-5px, -8px);
+}

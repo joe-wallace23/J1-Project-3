@@ -1,0 +1,81 @@
+.nav{
+    &__button{
+        margin: 1rem 0 1rem .5rem;
+    }
+    &__link{
+        font-size: 1rem;
+        color: #fff;
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: 1.15px;
+        background-color: $maroon-color;
+        padding: .6rem 1.3rem;
+        border-radius: 5rem;
+        &:hover{
+            color: #fff;
+            background-color: #000;
+            text-decoration: none;
+        }
+    }
+}
+
+.banner{
+    &__button{
+        margin: 2rem 0 .8rem 0;
+    }
+    &__link{
+        font-size: 1.3rem;
+        color: #fff;
+        text-transform: uppercase;
+        text-decoration: none;
+        background-color: $red-color;
+        padding: .7rem 3.5rem;
+        &:hover{
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+}
+
+.secondSection{
+    &__button{
+        margin: 2rem 0;
+    }
+    &__link{
+        font-size: 1rem;
+        color: #fff;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: bold;
+        letter-spacing: 1.15px;
+        background-color: $maroon-color;
+        padding: .8rem 2.5rem;
+
+        &:hover{
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+}
+
+.thirdSection{
+    &__button{
+        margin: 2rem 0;
+    }
+    &__link{
+        font-size: 1rem;
+        color: #fff;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: 1.15px;
+        background-color: #b68207;
+        border: .1rem solid #b68207;
+        padding: 1.1rem 3rem;
+
+        &:hover{
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+}

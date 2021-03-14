@@ -1,0 +1,68 @@
+.bottom{
+    position: relative;
+    margin-top: 3rem;
+    padding: 5rem .5rem 1rem .5rem;
+    background-color: #1b0800;
+    height: 100%;
+
+    &__content h4.title{
+        font-size: 1.3rem;
+        color: #d4cbc7;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 0 0 .6rem 2rem;
+    }
+
+    &__list{
+        list-style: none;
+    }
+    &__item{
+        display: block;
+    }
+    &__item{
+        margin-bottom: .5rem;
+    }
+    &__link{
+        font-size: 1rem;
+        color: #fff;
+        text-decoration: none;
+        &:hover{
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+    &__content h4.connect{
+        font-size: 1.3rem;
+        color: #d4cbc7;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    &__listS{
+        list-style: none;
+        margin-top: 2rem;
+    }
+    &__itemS{
+        display: inline-block;
+    }
+    &__itemS:not(:last-child){
+        margin-right: 1rem;
+    }
+    &__icon{
+        width: 1.5rem;
+        height: 1.5rem;
+        fill: #fff;
+    }
+    &__images{
+        margin-top: 2rem;
+    }
+    &__images img{
+        width: 8rem;
+        height: 3rem;
+    }
+    &__fast{
+        margin-bottom: 1rem;
+    }
+    &__fast:not(:last-child){
+        margin-right: 1rem;
+    }
+}
